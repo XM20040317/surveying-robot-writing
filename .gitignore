@@ -1,0 +1,17 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.bak
+*~
+
+# 打包产物：dist/ 下的 zip 要发布，其余忽略
+*.zip
+!dist/*.zip
+
+# 本地草稿
+/drafts/
+/notes/
